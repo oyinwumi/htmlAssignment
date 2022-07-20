@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+  <div>
+    <h1>My Contact Details</h1> 
+    <p>Name: Ogunkunle Oyindamola Dorcas</p>
+    <p>My Address: 5, Church Street, Bembo Area, Sango,Ibadan</p>
+    <p>Phone Number: 08139715172</p>
+    <p>Email: oyinwumi0229@gmail.com</p>
+    <p>Instagram: <a target="_blank" href="https://www.instagram.com/oyinwumi_0229/">Instagram</a></p>
+    <p>Twitter: <a target="_blank" href="https://twitter.com/Oyinwumi0229">Twitter</a></p>
+  </div> <hr/>
+  <div>
+    <form action="mailto:oyinwumi0229@gmail.com" method="post">
+       <fieldset>
+        <legend>User Personal Details</legend>
+        <div>
+            <label for="yourName">Your name:</label>
+            <input type="text" name="yourName" id="yourName" placeholder=" Enter Your full name"  value="" required> 
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="yourEmail">Your Email:</label>
+            <input type="text" name="yourEmail" id="yourEmail" placeholder=" Enter Your Email" value="" required> 
+        </div>
+        <br>
+        <br>
+        <div>
+            <div>
+                <label for="country">Country Of Residence:</label>
+                <input type="text" name="country" id="country" placeholder=" Enter Your Country Of Residence"  value="" required> 
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="address">Contact Address:</label>
+                <input type="text" name="address" id="address" placeholder="Enter Your Address"  value="" required> 
+            </div>
+            <br>
+            <br>
+            <label for="date">Your DOB:</label>
+            <input type="date" name="date" id="date" placeholder="Enter Your DOB"  value="" required> 
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="mobile">Phone Number:</label>
+            <input type="text" name="mobile" id="mobile" placeholder=" Enter Your Phone Number"  value="" required> 
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="qualification">Highest Qualification</label><br>
+            <select name="qualification" id="qualification" required>
+                <option value="select your qualification">select your highest qualification</option>
+                <option value="select your qualification">SSCE</option>
+                <option value="select your qualification">NCE</option>
+                <option value="select your qualification">OND</option>
+                <option value="select your qualification">HND</option>
+                <option value="select your qualification">Bachelor Degree</option>
+                <option value="select your qualification">Masters Degree</option>
+                <option value="select your qualification">Others </option>
+            </select>
+           </div>
+           <br/>
+           <br/> 
+       <div>
+        <label for="occupation">What do you do</label><br>
+        <select name="occupation" id="occupation" required>
+            <option value="select your Occupation">select your Occupation</option>
+            <option value="select your Occupation">Nurse</option>
+            <option value="select your Occupation">Engineering</option>
+            <option value="select your Occupation">Surverying</option>
+            <option value="select your Occupation">Trading</option>
+            <option value="select your Occupation">Student</option>
+            <option value="select your Occupation">Others</option>
+        </select>
+       </div>
+       <br/>
+       <br/> 
+       <div>
+        <label for="gender">Gender</label> <br/>
+        <input type="radio" name="gender" id="gender" value="Male" required>Male <br/>
+        <input type="radio" name="gender" id="gender" value="Female">Female <br/>
+        <input type="radio" name="gender" id="gender" value="Others">Others <br/>
+       </div>
+        <div>
+            <br/>
+            <br/>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" >Send</button>
+       </fieldset>
+       
+
+    </form>
+  </div>
+
+</body>
+</html>
